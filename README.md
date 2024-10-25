@@ -2,35 +2,35 @@
 
 
 ## first time setup
-'sudo apt-get install git'
+"sudo apt-get install git"
 
-'sudo apt install software-properties-common
-sudo add-apt-repository universe'
+"sudo apt install software-properties-common
+sudo add-apt-repository universe"
 
-'sudo apt update && sudo apt install curl -y
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg'
+"sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg"
 
-'echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null'
-
-
-'sudo apt update'
+"echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null"
 
 
-'sudo apt upgrade'
+"sudo apt update"
 
 
-'sudo apt install ros-humble-desktop'
+"sudo apt upgrade"
 
 
-'sudo apt install ros-humble-ros-base'
+"sudo apt install ros-humble-desktop"
 
 
-'sudo apt install ros-dev-tools'
+"sudo apt install ros-humble-ros-base"
+
+
+"sudo apt install ros-dev-tools"
 
 
 
-# Replace ".bash" with your shell if you're not using bash
-# Possible values are: setup.bash, setup.sh, setup.zsh
-"source /opt/ros/humble/setup.bash'
+## Replace ".bash" with your shell if you're not using bash
+## Possible values are: setup.bash, setup.sh, setup.zsh
+"source /opt/ros/humble/setup.bash"
 
 This is where the code for matlab sim
